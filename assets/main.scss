@@ -1,0 +1,7 @@
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~bootstrap-vue/src/index.scss';
+
+// Un mixin qui permet à tout sélecteur qui l'étend de prendre une box-shadow rouge
+%red-box {
+    box-shadow: 10px 5px 5px red;
+}
